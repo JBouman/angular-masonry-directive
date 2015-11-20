@@ -1,7 +1,7 @@
 (function() {
   "use strict";
 
-  angular.module('masonry', ['ng']).directive('masonry', function($timeout) {
+  angular.module('masonry', ['ng']).directive('masonry', [function($timeout) {
     return {
       restrict: 'AC',
       link: function(scope, elem, attrs) {
@@ -19,7 +19,7 @@
           }
           debounceTimeout = $timeout(function() {
             debounceTimeout = 0;
-            
+
             masonry.reloadItems();
             masonry.layout();
 
@@ -45,7 +45,7 @@
         scope.update();
       }
     };
-  }).directive('masonryTile', function() {
+  }]).directive('masonryTile', [function() {
     return {
       restrict: 'AC',
       link: function(scope, elem) {
@@ -68,5 +68,5 @@
         });
       }
     };
-  });
+  }]);
 })();
