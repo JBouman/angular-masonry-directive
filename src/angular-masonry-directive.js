@@ -50,10 +50,10 @@
       restrict: 'AC',
       link: function(scope, elem) {
         elem.css('visibility', 'hidden');
-        var master = elem.parent('*[masonry]:first').scope(),
-        update = master.update,
-        removeBrick = master.removeBrick,
-        appendBricks = master.appendBricks;
+        var master = elem.parent('*[masonry]:first').scope();
+        var update = master.update;
+        var removeBrick = master.removeBrick;
+        var appendBricks = master.appendBricks;
         if (update) {
           elem.ready(update);
         }
