@@ -1,7 +1,9 @@
 angular-masonry-directive
 =========================
 
-A very simple and 100% compatible masonry directive for AngularJS ... do you know how to use masonry? Good! You know how to use this
+This is a fork of https://github.com/klederson/angular-masonry-directive.
+
+A very simple and 100% compatible masonry directive for AngularJS.
 
 This directive is meant for the raw masonry lib and not the jQuery one.
 
@@ -25,7 +27,7 @@ var myApp = angular.module('MyApp',['masonry']);
 <div masonry='{ "transitionDuration" : "0.4s" , "itemSelector" : ".tile"}'>
   <!-- items -->
   <div masonry-tile ng-repeat="item in items">
-        
+
   </div>
 </div>
 ```
