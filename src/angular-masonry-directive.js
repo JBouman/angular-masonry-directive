@@ -1,5 +1,4 @@
-(function() {
-  "use strict";
+(function(window, angular, undefined) {'use strict';
 
   angular.module('masonry', ['ng']).directive('masonry', ['$timeout', function($timeout) {
     return {
@@ -65,4 +64,4 @@
       }
     };
   }]);
-})();
+})(window, window.angular);
