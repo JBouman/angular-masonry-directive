@@ -1,7 +1,7 @@
 {
   "name": "angular-masonry-directive",
   "description": "Masonry directive for AngularJS",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "dependencies": {
     "masonry-layout": "~3.3.2",
     "angular": "~1.4.8"
