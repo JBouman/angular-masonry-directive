@@ -3,7 +3,7 @@
   "description": "Masonry directive for AngularJS",
   "version": "2.0.0",
   "dependencies": {
-    "masonry": "~3.3.2",
+    "masonry-layout": "~3.3.2",
     "angular": "~1.4.8"
   },
   "repositories": [
