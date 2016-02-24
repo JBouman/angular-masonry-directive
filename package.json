@@ -12,5 +12,5 @@
       "url": "git+https://github.com/JBouman/angular-masonry-directive.git"
     }
   ],
-   "main": "index.js",
+   "main": "index.js"
 }
